@@ -39,6 +39,7 @@ namespace TCPChatClient
                     sr.Close();
                     sw.Close();
                     ns.Close();
+                    Environment.Exit(0);
                 }
 
             }
